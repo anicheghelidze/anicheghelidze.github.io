@@ -133,6 +133,7 @@ p {
     
     .mobile-picture {
     display: none;
+    visibility: hidden;
 }
     
 .product-img {
