@@ -137,9 +137,6 @@ background-repeat: no-repeat;
 background-size: cover;
 max-width: 100%;
 }
- picture {
-display: none;
-}
 
 .product-content {
     display: flex;
