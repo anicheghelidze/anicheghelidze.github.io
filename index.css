@@ -130,14 +130,15 @@ p {
         margin-top: 7rem;
         margin-bottom: 7rem;
     }
-    .product-img {
-    display: none;
-}
+    
 .product-img {
 background-image: url(images/image-product-desktop.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 max-width: 100%;
+}
+ .product-img {
+display: none;
 }
 
 .product-content {
