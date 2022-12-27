@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+body {
+background-color: hsl(30, 38%, 92%);
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color:hsl(0, 0%, 100%);
+    margin: 1rem 1.5rem;
+}
+.product-content {
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+}
+.flex-group {
+    display: flex;
+    justify-content:left;
+    margin: 1rem;
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 0.6rem;
+    border: 0;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    cursor: pointer;
+
+}
+.button:hover {
+    background-color: hsl(157, 40%, 23%);
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0.4rem;
+    
+}
+.product-category {
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.2rem;
+}
+p {
+    font-family: Montserrat;
+        color: hsl(228, 12%, 48%);
+        font-size: 0.7rem; 
+        font-weight: 500;  
+        line-height: 1.5rem;     
+}
+.product-price {
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 7px;
+}
+.product-title {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 2rem;
+    color: hsl(212, 21%, 14%);
+}
+.product-original-price {
+    text-decoration: line-through;
+   display: flex;
+   align-items: center;
+   margin: 0.2rem;
+}
+@media screen and (min-width: 733px) {
+    .product {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        min-height: 600px;
+        max-height: 600px;
+        max-width: 700px;
+        margin: auto;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+    }
+.product-img {
+background-image: url(/product-preview-card-component-main/product-preview-card-component-main/images/image-product-desktop.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+max-width: 100%;
+}
+.mobile-picture {
+    display: none;
+}
+.product-content {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    justify-content: space-evenly;
+}
+p {
+    font-size: 0.81rem;
+}
+.product-title{
+    font-size: 3rem;
+}
+}
