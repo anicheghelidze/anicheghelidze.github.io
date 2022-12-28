@@ -131,9 +131,8 @@ p {
         margin-bottom: 7rem;
     }
     
-    image {
+    picture {
     display: none;
-    visibility: hidden;
 }
     
 .product-img {
